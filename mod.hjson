@@ -1,0 +1,6 @@
+name: "FluidItems"
+displayName: "Fluid Items"
+author: "[green]bestGaming132[]"
+description: "Adds items of vanilla fluids"
+version: "0.1"
+minGameVersion: "103"
