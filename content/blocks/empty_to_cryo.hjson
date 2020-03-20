@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Cryo Filler
+description: Fills Empty Bottles with 10 Cryofluid
+itemCapacity: 10
+liquidCapacity: 100
+health: 425
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: mineBig
+flameColor: 17A5DB
+consumes: {
+  power: 2
+  items: {
+    items: [
+      emptyitem/1
+    ]
+   }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.167
+  }
+}
+requirements: [
+  lead/200
+  copper/150
+  titanium/40
+  
+]
+category: crafting
+outputItem: cryoitem/1

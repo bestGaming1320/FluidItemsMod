@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Slag Filler
+description: Fills Empty Bottles with 10 Slag
+itemCapacity: 10
+liquidCapacity: 100
+health: 425
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60 
+updateEffect: mineBig
+flameColor: E95B22
+consumes: {
+  power: 2
+  items: {
+    items: [
+      emptyitem/1
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.167
+  }
+}
+requirements: [
+  lead/200
+  copper/150
+  titanium/40
+  
+]
+category: crafting
+outputItem: slagitem/1

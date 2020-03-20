@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Water Bottle Liquidizer 
+description: Extracts 10 Water out of Watter Bottles. Also outputs empty bottles.
+itemCapacity: 10
+liquidCapacity: 100
+health: 425
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: mineBig
+flameColor: 227CE9
+consumes: {
+  power: 2
+  items: {
+    items: [
+      wateritem/1
+    ]
+  }
+}
+requirements: [
+  lead/200
+  copper/150
+  titanium/40
+  
+]
+category: crafting
+"outputItem": {"item": "emptyitem", "amount": 1},
+"outputLiquid": {"liquid": "water", "amount": 10},

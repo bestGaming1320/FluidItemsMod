@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Slag Bottle Liquidizer 
+description: Extracts 10 Slag out of Slag Bottles. Also outputs empty bottles.
+itemCapacity: 10
+liquidCapacity: 100
+health: 425
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: mineBig
+flameColor: E95B22
+consumes: {
+  power: 2
+  items: {
+    items: [
+      slagitem/1
+    ]
+  }
+}
+requirements: [
+  lead/200
+  copper/150
+  titanium/40
+  
+]
+category: crafting
+"outputItem": {"item": "emptyitem", "amount": 1},
+"outputLiquid": {"liquid": "slag", "amount": 10},

@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Bottle Smelter
+description: Smelts Bottles out of Metaglass
+itemCapacity: 10
+health: 425
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: mineBig
+flameColor: 848484
+consumes: {
+  power: 2
+  items: {
+    items: [
+      metaglass/5
+      titanium/2
+    ]
+ }
+}
+requirements: [
+  lead/200
+  copper/150
+  
+]
+category: crafting
+outputItem: emptyitem/1

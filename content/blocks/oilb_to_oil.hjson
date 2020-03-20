@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Oil Bottle Liquidizer 
+description: Extracts 10 Oil out of Oil Bottles. Also outputs empty bottles.
+itemCapacity: 10
+liquidCapacity: 100
+health: 425
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: mineBig
+flameColor: 161616
+consumes: {
+  power: 2
+  items: {
+    items: [
+      oilitem/1
+    ]
+  }
+}
+requirements: [
+  lead/200
+  copper/150
+  titanium/40
+  
+]
+category: crafting
+"outputItem": {"item": "emptyitem", "amount": 1},
+"outputLiquid": {"liquid": "oil", "amount": 10},
