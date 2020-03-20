@@ -1,0 +1,6 @@
+type: material
+name: Slag Bottle
+description: A bottle filled with 10 Slag.
+hardness: 1
+cost: 1
+color: E95B22

@@ -1,0 +1,6 @@
+type: material
+name: Cryofluid Bottle
+description: A bottle filled with 10 Cryofluid.
+hardness: 1
+cost: 1
+color: 17A5DB

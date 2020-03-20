@@ -1,0 +1,8 @@
+type: material
+name: Oil Bottle
+description: A bottle filled with 10 Oil.
+hardness: 1
+cost: 1
+color: 000000
+explosiveness: 1.6
+flammability: 1.6

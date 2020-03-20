@@ -1,0 +1,6 @@
+type: material
+name: Empty Bottle
+description: An empty bottle for filling with fluids. Only works for vanilla fluids.
+hardness: 1
+cost: 1
+color: 404040

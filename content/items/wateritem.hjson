@@ -1,0 +1,6 @@
+type: material
+name: Water Bottle
+description: A bottle filled with 10 Water.
+hardness: 1
+cost: 1
+color: 227CE9
